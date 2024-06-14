@@ -1,0 +1,41 @@
+Welcome to Rock, Paper, Scissors!
+Enter 'r' for rock, 'p' for paper, or 's' for scissors to make your choice.
+Enter your choice (r for rock, p for paper, s for scissors): r
+
+User choice: rock
+Computer choice: rock
+Tie
+Score - User: 0, Computer: 0
+Do you want to play again? (y/n): y
+
+Enter your choice (r for rock, p for paper, s for scissors): r
+
+User choice: rock
+Computer choice: scissors
+User wins
+Score - User: 1, Computer: 0
+Do you want to play again? (y/n): y
+
+Enter your choice (r for rock, p for paper, s for scissors): p
+
+User choice: paper
+Computer choice: scissors
+Computer wins
+Score - User: 1, Computer: 1
+Do you want to play again? (y/n): y
+
+Enter your choice (r for rock, p for paper, s for scissors): p
+
+User choice: paper
+Computer choice: rock
+User wins
+Score - User: 2, Computer: 1
+Do you want to play again? (y/n): y
+
+Enter your choice (r for rock, p for paper, s for scissors): s
+
+User choice: scissors
+Computer choice: rock
+Computer wins
+Score - User: 2, Computer: 2
+Do you want to play again? (y/n): n
