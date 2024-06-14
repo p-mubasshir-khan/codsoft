@@ -1,0 +1,33 @@
+Select operation:
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+
+Enter choice(1/2/3/4): 1
+Enter first number: 40
+Enter second number: 20
+40.0 + 20.0 = 60.0
+
+Do you want to perform another calculation? (yes/no): yes
+
+Enter choice(1/2/3/4): 2
+Enter first number: 40
+Enter second number: 20
+40.0 - 20.0 = 20.0
+
+Do you want to perform another calculation? (yes/no): yes
+
+Enter choice(1/2/3/4): 3
+Enter first number: 5
+Enter second number: 4
+5.0 * 4.0 = 20.0
+
+Do you want to perform another calculation? (yes/no): yes
+
+Enter choice(1/2/3/4): 4
+Enter first number: 100
+Enter second number: 5
+100.0 / 5.0 = 20.0
+
+Do you want to perform another calculation? (yes/no): no
