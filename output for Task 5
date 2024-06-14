@@ -1,0 +1,79 @@
+===== Contact Book =====
+1. Add Contact
+2. View Contacts
+3. Search Contact
+4. Update Contact
+5. Delete Contact
+6. Exit
+Enter your choice: 1
+Enter contact name: khan
+Enter contact phone number: 9989406361
+Contact added successfully!
+
+===== Contact Book =====
+1. Add Contact
+2. View Contacts
+3. Search Contact
+4. Update Contact
+5. Delete Contact
+6. Exit
+Enter your choice: 1
+Enter contact name: anas
+Enter contact phone number: 6302503513
+Contact added successfully!
+
+===== Contact Book =====
+1. Add Contact
+2. View Contacts
+3. Search Contact
+4. Update Contact
+5. Delete Contact
+6. Exit
+Enter your choice: 2
+Contact List:
+Name: khan, Phone: 9989406361
+Name: anas, Phone: 6302503513
+
+===== Contact Book =====
+1. Add Contact
+2. View Contacts
+3. Search Contact
+4. Update Contact
+5. Delete Contact
+6. Exit
+Enter your choice: 3
+Enter name or phone number to search: 6302503513
+Name: anas, Phone: 6302503513
+
+===== Contact Book =====
+1. Add Contact
+2. View Contacts
+3. Search Contact
+4. Update Contact
+5. Delete Contact
+6. Exit
+Enter your choice: 4
+Enter contact name to update: anas
+Enter new phone number: 8978937684
+Contact updated successfully!
+
+===== Contact Book =====
+1. Add Contact
+2. View Contacts
+3. Search Contact
+4. Update Contact
+5. Delete Contact
+6. Exit
+Enter your choice: 5
+Enter contact name to delete: anas
+Contact deleted successfully!
+
+===== Contact Book =====
+1. Add Contact
+2. View Contacts
+3. Search Contact
+4. Update Contact
+5. Delete Contact
+6. Exit
+Enter your choice: 6
+Exiting the Contact Book.
