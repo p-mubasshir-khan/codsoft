@@ -1,44 +1,44 @@
 class ContactBook:
-    def __init__(phone):
-        phone.contacts = {}
+    def __init__(self):
+        self.contacts = {}
 
-    def add_contact(phone):
+    def add_contact(self):
         name = input("Enter contact name: ")
-        phone = input("Enter contact phone number: ")
-        phone.contacts[name] = {"phone": phone}
+        phone_number = input("Enter contact phone number: ")
+        self.contacts[name] = {"phone": phone_number}
         print("Contact added successfully!")
 
-    def view_contacts(phone):
-        if not phone.contacts:
+    def view_contacts(self):
+        if not self.contacts:
             print("No contacts in the contact book.")
         else:
             print("Contact List:")
-            for name, details in phone.contacts.items():
+            for name, details in self.contacts.items():
                 print(f"Name: {name}, Phone: {details['phone']}")
 
-    def search_contact(phone):
+    def search_contact(self):
         search_term = input("Enter name or phone number to search: ")
         found = False
-        for name, details in phone.contacts.items():
-            if search_term in name or search_term in details["phone"]:
+        for name, details in self.contacts.items():
+            if search_term.lower() in name.lower() or search_term in details["phone"]:
                 print(f"Name: {name}, Phone: {details['phone']}")
                 found = True
         if not found:
             print("Contact not found.")
 
-    def update_contact(phone):
+    def update_contact(self):
         name = input("Enter contact name to update: ")
-        if name in phone.contacts:
-            phone = input("Enter new phone number: ")
-            phone.contacts[name] = {"phone": phone}
+        if name in self.contacts:
+            phone_number = input("Enter new phone number: ")
+            self.contacts[name] = {"phone": phone_number}
             print("Contact updated successfully!")
         else:
             print("Contact not found.")
 
-    def delete_contact(phone):
+    def delete_contact(self):
         name = input("Enter contact name to delete: ")
-        if name in phone.contacts:
-            del phone.contacts[name]
+        if name in self.contacts:
+            del self.contacts[name]
             print("Contact deleted successfully!")
         else:
             print("Contact not found.")
